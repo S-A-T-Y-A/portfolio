@@ -1,0 +1,155 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap')
+
+
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box 
+    font-family: 'Ubuntu', sans-serif !important
+    
+
+.position-fixed
+    position: fixed
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    z-index: -9999
+    .main-bg
+        position: relative
+        width: fit-content
+        max-height: 90vh
+        img
+            object-fit: cover
+            width: 100%
+            min-height: 100vh 
+            filter: brightness(0.2) blur(1em) 
+            transform: scale(1.4)    
+.logo
+    top: 2em
+    left: 2em
+    font-family: 'Monoton', cursive
+
+    h5
+        font-size: 24px
+        z-index: 111
+        position: relative
+        font-family: 'Monoton', cursive !important
+.logo::after
+    content: ''
+    position: absolute
+    right: 0
+    bottom: 0
+    top: 0
+    width: 100%
+    height: 100%
+    clip-path: polygon(69% 16%, 88% 25%, 95% 45%, 88% 73%, 75% 85%, 58% 77%, 52% 63%, 49% 44%, 54% 27%)
+    background-color: #FFB319 
+    color: black 
+
+.fw-400
+    font-weight: 400
+.fw-500
+    font-weight: 500
+.fw-700
+    font-weight: 700
+.mar-5
+    margin-top: 60px !important
+    margin-bottom: 60px !important   
+.mar-10
+    margin-top: 110px  !important
+    margin-bottom: 110px !important
+.hii
+    width: fit-content !important
+.name
+    position: relative
+.name::before
+    position: absolute
+    content: "I'am"
+    top: -1em
+    left: 0.5em
+    font-size: 0.5em
+.image
+    img
+        border-radius: 39% 61% 75% 25% / 50% 61% 39% 50% 
+.fl-100
+    flex-basis: 100%         
+.fl-50
+    flex-basis: 50%     
+.about-me
+    border-radius: 55% 45% 32% 68% / 57% 45% 55% 43%   
+.rounde-crnr
+    border-radius: 20px
+    box-shadow: 1px -1px 5px 5px rgba(255,255,255,0.55)
+.progress
+    height: 6px !important    
+.progress::before
+    content: ''
+    position: absolute
+    width: 93%
+    height: inherit
+    background-color: #FFB319
+.js-pro-bar::before
+    content: ''
+    position: absolute
+    width: 50% !important 
+.bac-pro-bar::before
+    content: ''
+    width: 10% !important    
+
+.pro-con
+    max-width: 80%
+    min-width: 15em    
+.contact-link
+    text-decoration: none 
+    
+    color: white 
+.contact-link:hover
+    color: #FFB319 !important
+.git:hover
+    color: black      
+.nav-con
+    position: fixed
+    bottom: 3em
+    right: 3em
+    
+    
+    width: fit-content
+.nav-con
+    height: 55px
+    
+    transition: all 1s ease-in-out
+    overflow-y: hidden
+    div
+        border-radius: 50%  
+        
+        margin: 5px 0px !important
+        a
+            color: #FFB319  
+
+.nav-con-full
+    height: fit-content
+    transition: all 0.6s ease-in-out
+
+    
+
+.burger-div:hover
+    background-color: #ffb319 !important
+
+.burger:hover
+    cursor: pointer !important
+    color: #ececec !important
+
+.mail:hover
+    color: #FA1E0E !important    
+.whatsapp:hover
+    color: green !important    
+.git:hover
+    color: white !important    
+.linkedin:hover
+    color: #185ADB !important
+.con-a:hover
+    color: #ffb319 !important    
